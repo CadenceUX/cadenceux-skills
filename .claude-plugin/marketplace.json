@@ -1,0 +1,172 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "cadenceux",
+  "description": "Claude skills for Claris FileMaker developers from CadenceUX \u2014 FileMaker Pro reference, scripting patterns, plug-in references and FileMaker Server operations.",
+  "owner": {
+    "name": "Darrin Southern, CadenceUX",
+    "url": "https://cadenceux.com.au"
+  },
+  "plugins": [
+    {
+      "name": "claris-filemaker-pro",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CadenceUX/claris-filemaker-pro-skill.git"
+      },
+      "description": "FileMaker Pro reference: every calculation function and script step with exact syntax, return types, versions and platform support, plus Data API, OData, SQL, WebDirect and Go. ADT-aware.",
+      "category": "reference",
+      "tags": [
+        "filemaker",
+        "claris",
+        "reference"
+      ],
+      "displayName": "Claris FileMaker Pro",
+      "homepage": "https://github.com/CadenceUX/claris-filemaker-pro-skill"
+    },
+    {
+      "name": "fmp-dev-design-patterns",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CadenceUX/fmp-dev-design-patterns.git"
+      },
+      "description": "FileMaker scripting rules, conventions and project configuration: error handling, variables, loops, JSON parameters, delivery methods.",
+      "category": "development",
+      "tags": [
+        "filemaker",
+        "scripting",
+        "patterns"
+      ],
+      "displayName": "FileMaker Design Patterns",
+      "homepage": "https://github.com/CadenceUX/fmp-dev-design-patterns",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "fmp-dev-full-script",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CadenceUX/fmp-dev-full-script.git"
+      },
+      "description": "Generates complete FileMaker scripts using every relevant step and function in one script.",
+      "category": "development",
+      "tags": [
+        "filemaker",
+        "scripting"
+      ],
+      "displayName": "FileMaker Full Script",
+      "homepage": "https://github.com/CadenceUX/fmp-dev-full-script",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "fmp-dev-orchestrator",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CadenceUX/fmp-dev-orchestrator-skill.git"
+      },
+      "description": "Maps every installed FileMaker skill to its scope so Claude picks the right one.",
+      "category": "development",
+      "tags": [
+        "filemaker",
+        "routing"
+      ],
+      "displayName": "FileMaker Skill Orchestrator",
+      "homepage": "https://github.com/CadenceUX/fmp-dev-orchestrator-skill",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "monkeybread-mbs-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CadenceUX/monkeybread-mbs-plugin-skill.git"
+      },
+      "description": "Reference for the MBS FileMaker Plugin by Monkeybread Software.",
+      "category": "plug-ins",
+      "tags": [
+        "filemaker",
+        "mbs",
+        "plugin"
+      ],
+      "displayName": "MBS Plugin Reference",
+      "homepage": "https://github.com/CadenceUX/monkeybread-mbs-plugin-skill",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "goya-be-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CadenceUX/goya-be-plugin-skill.git"
+      },
+      "description": "Reference for the free, open-source BaseElements Plugin by Goya.",
+      "category": "plug-ins",
+      "tags": [
+        "filemaker",
+        "baseelements",
+        "plugin"
+      ],
+      "displayName": "BaseElements Plugin Reference",
+      "homepage": "https://github.com/CadenceUX/goya-be-plugin-skill",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "beezwax-bbox-plugin",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CadenceUX/beezwax-bbox-plugin-skill.git"
+      },
+      "description": "Reference for the bBox FileMaker plugin by Beezwax.",
+      "category": "plug-ins",
+      "tags": [
+        "filemaker",
+        "bbox",
+        "plugin"
+      ],
+      "displayName": "bBox Plugin Reference",
+      "homepage": "https://github.com/CadenceUX/beezwax-bbox-plugin-skill",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "cadenceux-fms-docker-setup",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CadenceUX/cadenceux-fms-docker-setup-skill.git"
+      },
+      "description": "Install, upgrade and troubleshoot FileMaker Server in Docker on macOS (Apple silicon).",
+      "category": "operations",
+      "tags": [
+        "filemaker-server",
+        "docker"
+      ],
+      "displayName": "FileMaker Server on Docker",
+      "homepage": "https://github.com/CadenceUX/cadenceux-fms-docker-setup-skill",
+      "skills": [
+        "./"
+      ]
+    },
+    {
+      "name": "agentic-gate",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CadenceUX/agentic-gate.git"
+      },
+      "description": "Referees cross-environment calls between skill packs, plugins and MCP servers (hook + management skill).",
+      "category": "tooling",
+      "tags": [
+        "hooks",
+        "mcp"
+      ],
+      "displayName": "Agentic Gate",
+      "homepage": "https://github.com/CadenceUX/agentic-gate"
+    }
+  ]
+}
