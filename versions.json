@@ -1,0 +1,95 @@
+{
+  "schema": 1,
+  "updated": "2026-10-11",
+  "about": "Latest release of each CadenceUX FileMaker skill, and the toolchain the set was last tested with. Read by fmp-dev-orchestrator's stack check. Update on every skill release (cadenceux-skill-creator release checklist).",
+  "skills": {
+    "claris-filemaker-pro": {
+      "version": "2.1.1",
+      "repo": "https://github.com/CadenceUX/claris-filemaker-pro-skill"
+    },
+    "fmp-dev-design-patterns": {
+      "version": "2.0.0",
+      "repo": "https://github.com/CadenceUX/fmp-dev-design-patterns"
+    },
+    "fmp-dev-orchestrator": {
+      "version": "2.1.0",
+      "repo": "https://github.com/CadenceUX/fmp-dev-orchestrator-skill"
+    },
+    "cadenceux-fms-docker-setup": {
+      "version": "1.6.0",
+      "repo": "https://github.com/CadenceUX/cadenceux-fms-docker-setup-skill"
+    },
+    "cadenceux-ottofms-docker-setup": {
+      "version": "1.1.0",
+      "repo": "https://github.com/CadenceUX/cadenceux-ottofms-docker-setup-skill"
+    },
+    "monkeybread-mbs-plugin": {
+      "version": "2.0.0",
+      "repo": "https://github.com/CadenceUX/monkeybread-mbs-plugin-skill"
+    },
+    "goya-be-plugin": {
+      "version": "1.4.0",
+      "repo": "https://github.com/CadenceUX/goya-be-plugin-skill"
+    },
+    "beezwax-bbox-plugin": {
+      "version": "1.1.0",
+      "repo": "https://github.com/CadenceUX/beezwax-bbox-plugin-skill"
+    }
+  },
+  "separate_installs": {
+    "cadenceux-skill-creator": {
+      "version": "2.0.0",
+      "repo": "https://github.com/CadenceUX/cadenceux-skill-creator-skill"
+    }
+  },
+  "retired": {
+    "fmp-dev-full-script": "Retired 2026-10-11: clipboard XML script generation, replaced by Claris ADT.",
+    "agentic-gate": "Retired 2026-10-11.",
+    "filemaker-xml": "Clipboard XML skill; not needed with Claris ADT.",
+    "filemaker-field-xml": "Clipboard XML skill; not needed with Claris ADT.",
+    "filemaker-layout-xml": "Clipboard XML skill; not needed with Claris ADT."
+  },
+  "tested_with": {
+    "date": "2026-10-11",
+    "adt": {
+      "version": "0.10.0",
+      "channel": "developer-preview",
+      "requires_filemaker_pro": "26.1",
+      "template": {
+        "@adt/fmdapi": "0.4.2",
+        "typescript": "^6.0.3",
+        "node": ">=22.12.0"
+      },
+      "node_tested": "22.22.2",
+      "pnpm_tested": "11.20.0"
+    },
+    "filemaker_pro": {
+      "version": "26.1.1",
+      "note": "26.1 is the Developer Preview build ADT requires (Agent Access). Claris's public feed listed 26.0.3 as current on 2026-10-11."
+    },
+    "filemaker_server": {
+      "version": "26.0.3"
+    },
+    "mbs_plugin": {
+      "version": "16.4"
+    },
+    "baseelements_plugin": {
+      "version": "5.1.0.6"
+    },
+    "bbox_plugin": {
+      "version": "1.06"
+    }
+  },
+  "sources": {
+    "claris_updates_feed": "https://www.claris.com/cms/resources/downloads/updaters/product-updaters.txt",
+    "adt_updates_feed": null,
+    "adt_updates_note": "ADT is in Developer Preview and has no public update feed yet. The stack check also looks for an ADT entry in the Claris updates feed, so once Claris publishes ADT there (as it does for FileMaker Pro and Server) the check reports the latest ADT with no skill change. If Claris publishes a separate feed, set adt_updates_feed here.",
+    "adt_preview_hub": "https://community.claris.com/en/s/developer-preview-hub",
+    "mbs_release_notes": "https://www.monkeybreadsoftware.com/filemaker/releasenotes.shtml",
+    "baseelements_releases": "https://github.com/GoyaPtyLtd/BaseElements-Plugin/releases",
+    "bbox_wiki": "https://github.com/beezwax/bbox-documentation/wiki"
+  },
+  "outside_set": {
+    "clockwork-inspector": "Not part of the CadenceUX FileMaker set. Not superseded by ADT: keep it if you use it."
+  }
+}
