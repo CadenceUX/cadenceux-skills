@@ -98,7 +98,7 @@
         "source": "url",
         "url": "https://github.com/CadenceUX/monkeybread-mbs-plugin-skill.git"
       },
-      "description": "Reference for the MBS FileMaker Plugin by Monkeybread Software.",
+      "description": "Reference for the MBS FileMaker Plugin from Monkeybread Software: every documented function with signature, parameters, platform support, licensing status and readable script examples, built from the vendor's documentation.",
       "category": "plug-ins",
       "tags": [
         "filemaker",
