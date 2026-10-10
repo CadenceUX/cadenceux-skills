@@ -1,8 +1,13 @@
 # CadenceUX Skills for Claris FileMaker
 
 Claude skills for FileMaker developers from [CadenceUX](https://cadenceux.com.au), in one
-plugin marketplace. Add it once, then install only the skills you need. Each skill updates
-on its own when you bump to a new release.
+plugin marketplace. Add it once, then install only the skills you need. Each skill updates on
+its own when a new release ships.
+
+Built to work with the **Claris Agentic Development Toolkit (ADT)**: with ADT installed, Claude
+reads and changes your FileMaker file directly (schema, scripts, layouts), so there's no
+clipboard XML and no copy and paste. These skills add the verified reference, conventions and
+operations knowledge ADT doesn't carry.
 
 Built and maintained by [Darrin Southern](https://www.linkedin.com/in/darrin-southern/).
 
@@ -28,33 +33,23 @@ Updates: run `claude plugin update`, or turn on auto-update for the `cadenceux` 
 
 | Skill | What it does |
 |---|---|
-| `claris-filemaker-pro` | FileMaker Pro reference — every function and script step, exact syntax, versions, platform support, Data API, OData, SQL, WebDirect, Go. Works with Claris's Agentic Development Toolkit (ADT). |
-| `fmp-dev-design-patterns` | Scripting rules and conventions — error handling, variables, loops, JSON parameters |
-| `fmp-dev-full-script` | Generate complete FileMaker scripts |
-| `fmp-dev-orchestrator` | Routes FileMaker questions to the right installed skill |
-| `monkeybread-mbs-plugin` | MBS FileMaker Plugin reference |
-| `goya-be-plugin` | BaseElements Plugin reference |
-| `beezwax-bbox-plugin` | bBox plugin reference |
-| `cadenceux-fms-docker-setup` | FileMaker Server on Docker (macOS, Apple silicon) |
-| `agentic-gate` | Referees calls between skill packs, plugins and MCP servers |
+| `claris-filemaker-pro` | FileMaker Pro reference: every function and script step with exact syntax, versions and platform support, plus Data API, OData, SQL, WebDirect and Go. Defers to ADT's engine when installed. |
+| `fmp-dev-design-patterns` | Scripting conventions and patterns: error handling, JSON parameters, transactions, AI steps, naming and anti-patterns. Writes scripts into the file through ADT. |
+| `fmp-dev-orchestrator` | Routes each FileMaker topic to the skill or tool that owns it, ADT included. |
+| `cadenceux-fms-docker-setup` | FileMaker Server on Docker (macOS, Apple silicon): install, certificates, upgrades and rollback. |
+| `cadenceux-ottofms-docker-setup` | OttoFMS on a Docker-hosted FileMaker Server: install and activation. |
+| `monkeybread-mbs-plugin` | MBS FileMaker Plugin reference. |
+| `goya-be-plugin` | BaseElements plug-in reference. |
+| `beezwax-bbox-plugin` | bBox plug-in reference. |
 
 Each skill lives in its own repository (linked from `/plugin`), with its own changelog and issues.
 
-## Works well with
+**Also from CadenceUX:** [cadenceux-skill-creator](https://github.com/CadenceUX/cadenceux-skill-creator-skill)
+builds and maintains skills like these to Anthropic's skill authoring best practices. It's a
+separate install, not part of this marketplace.
 
-**Andrew Kear's** open-source FileMaker skills from
-[Clockwork Creative Technology](https://www.clockworkct.co.uk) — install them from his
-repositories:
-
-- [FileMaker-XMLsnippet-Claude-Skill](https://github.com/andykear/FileMaker-XMLsnippet-Claude-Skill) — paste-ready script XML (`filemaker-xml`)
-- [FileMaker-XMLsnippet-Layout-Claude-Skill](https://github.com/andykear/FileMaker-XMLsnippet-Layout-Claude-Skill) — layout XML (`filemaker-layout-xml`)
-- [FileMaker-XML-field-definitions](https://github.com/andykear/FileMaker-XML-field-definitions) — field and table XML (`filemaker-field-xml`)
-- [FileMaker-AI-Grammar](https://github.com/andykear/FileMaker-AI-Grammar) — engine-measured calculation rules (`filemaker-ai-grammar`)
-- [FileMaker-AI-vocabulary](https://github.com/andykear/FileMaker-AI-vocabulary) — compact function and step vocabulary (`filemaker-ai-vocabulary`)
-- [FileMaker-XML-bit-flags](https://github.com/andykear/FileMaker-XML-bit-flags) — Save as XML option bit flags
-- [FileMaker-XML-inspector-open-source](https://github.com/andykear/FileMaker-XML-inspector-open-source) and [FileMaker-XML-scrubber](https://github.com/andykear/FileMaker-XML-scrubber) — browser tools
-
-And **Claris's Agentic Development Toolkit (ADT)**, which installs its own Claude plugin.
+**Retired in October 2026:** `fmp-dev-full-script` (clipboard XML script generation, replaced
+by ADT) and `agentic-gate`. Their repositories are archived.
 
 ## Troubleshooting
 
@@ -62,7 +57,9 @@ And **Claris's Agentic Development Toolkit (ADT)**, which installs its own Claud
   uses HTTPS URLs, so update the marketplace (`claude plugin marketplace update cadenceux`). If
   you added it as `CadenceUX/cadenceux-skills`, re-add it with the `https://` URL above, or set
   `CLAUDE_CODE_PLUGIN_PREFER_HTTPS=1`.
+- A retired skill still showing after an update: uninstall it with
+  `claude plugin uninstall fmp-dev-full-script@cadenceux` (or `agentic-gate@cadenceux`).
 
 ## Licence
 
-Each skill carries its own licence (most are [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).
+Each skill carries its own licence (CC BY 4.0).
