@@ -47,7 +47,7 @@
         "source": "url",
         "url": "https://github.com/CadenceUX/fmp-dev-orchestrator-skill.git"
       },
-      "description": "Routes Claris FileMaker work to the skill or tool that owns it, including the Claris Agentic Development Toolkit (ADT) for anything that reads or changes the file.",
+      "description": "Routes FileMaker work to the CadenceUX skill or Claris ADT tool that owns it, and checks that the stack is current: skills, ADT, FileMaker Pro and the ADT project's packages.",
       "category": "development",
       "tags": [
         "filemaker",

@@ -45,9 +45,10 @@ Updates: run `claude plugin update`, or turn on auto-update for the `cadenceux` 
 Each skill lives in its own repository (linked from `/plugin`), with its own changelog and issues.
 
 **Staying current.** [`versions.json`](versions.json) lists each skill's latest release and the
-toolchain the set was last tested with (Claris ADT, FileMaker Pro and Server, plugin versions).
+toolchain the set was last tested with (FileMaker Server and plugin versions).
 `fmp-dev-orchestrator` reads it once per session and reports anything out of date, including
-ADT, FileMaker Pro (ADT needs 26.1 or newer) and your ADT project's packages. It's read-only.
+Claris ADT, the FileMaker Pro version ADT needs, and your ADT project's packages, all read
+from your own install. It's read-only.
 
 **Also from CadenceUX:** [cadenceux-skill-creator](https://github.com/CadenceUX/cadenceux-skill-creator-skill)
 builds and maintains skills like these to Anthropic's skill authoring best practices. It's a
