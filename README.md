@@ -41,6 +41,7 @@ Updates: run `claude plugin update`, or turn on auto-update for the `cadenceux` 
 | `monkeybread-mbs-plugin` | MBS FileMaker Plugin reference. |
 | `goya-be-plugin` | BaseElements plug-in reference. |
 | `beezwax-bbox-plugin` | bBox plug-in reference. |
+| `cadenceux-skill-creator` | Builds, updates and reviews Claude skills to Anthropic's best practices: evals first, a validator script, Haiku/Sonnet/Opus testing and release packaging. |
 
 Each skill lives in its own repository (linked from `/plugin`), with its own changelog and issues.
 
@@ -49,10 +50,6 @@ toolchain the set was last tested with (FileMaker Server and plugin versions).
 `fmp-dev-orchestrator` reads it once per session and reports anything out of date, including
 Claris ADT, the FileMaker Pro version ADT needs, and your ADT project's packages, all read
 from your own install. It's read-only.
-
-**Also from CadenceUX:** [cadenceux-skill-creator](https://github.com/CadenceUX/cadenceux-skill-creator-skill)
-builds and maintains skills like these to Anthropic's skill authoring best practices. It's a
-separate install, not part of this marketplace.
 
 **Retired in October 2026:** `fmp-dev-full-script` (clipboard XML script generation, replaced
 by ADT) and `agentic-gate`. Their repositories are archived.

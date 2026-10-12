@@ -141,6 +141,23 @@
       ],
       "displayName": "bBox Plugin Reference",
       "homepage": "https://github.com/CadenceUX/beezwax-bbox-plugin-skill"
+    },
+    {
+      "name": "cadenceux-skill-creator",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CadenceUX/cadenceux-skill-creator-skill.git"
+      },
+      "description": "Builds, updates and reviews Claude skills to Anthropic's skill authoring best practices: evals first, progressive disclosure, a validator script, Haiku/Sonnet/Opus testing, and packaging for GitHub, plugin marketplaces and Claude.ai.",
+      "category": "development",
+      "tags": [
+        "claude-skills",
+        "skill-authoring",
+        "evals",
+        "best-practices"
+      ],
+      "displayName": "CadenceUX Skill Creator",
+      "homepage": "https://github.com/CadenceUX/cadenceux-skill-creator-skill"
     }
   ]
 }
