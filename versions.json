@@ -12,7 +12,7 @@
       "repo": "https://github.com/CadenceUX/fmp-dev-design-patterns"
     },
     "fmp-dev-orchestrator": {
-      "version": "2.1.1",
+      "version": "2.1.2",
       "repo": "https://github.com/CadenceUX/fmp-dev-orchestrator-skill"
     },
     "cadenceux-fms-docker-setup": {
@@ -36,7 +36,7 @@
       "repo": "https://github.com/CadenceUX/beezwax-bbox-plugin-skill"
     },
     "cadenceux-skill-creator": {
-      "version": "2.1.1",
+      "version": "2.1.2",
       "repo": "https://github.com/CadenceUX/cadenceux-skill-creator-skill"
     }
   },
