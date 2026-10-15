@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-12",
+  "updated": "2026-10-16",
   "about": "Latest release of each CadenceUX FileMaker skill, and the toolchain the set was last tested with. Read by fmp-dev-orchestrator's stack check. Update on every skill release (cadenceux-skill-creator release checklist).",
   "skills": {
     "claris-filemaker-pro": {
@@ -24,15 +24,15 @@
       "repo": "https://github.com/CadenceUX/cadenceux-ottofms-docker-setup-skill"
     },
     "monkeybread-mbs-plugin": {
-      "version": "2.0.0",
+      "version": "2.0.1",
       "repo": "https://github.com/CadenceUX/monkeybread-mbs-plugin-skill"
     },
     "goya-be-plugin": {
-      "version": "1.4.0",
+      "version": "1.4.1",
       "repo": "https://github.com/CadenceUX/goya-be-plugin-skill"
     },
     "beezwax-bbox-plugin": {
-      "version": "1.1.0",
+      "version": "1.1.1",
       "repo": "https://github.com/CadenceUX/beezwax-bbox-plugin-skill"
     },
     "cadenceux-skill-creator": {
