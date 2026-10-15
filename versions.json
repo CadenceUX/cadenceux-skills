@@ -4,23 +4,23 @@
   "about": "Latest release of each CadenceUX FileMaker skill, and the toolchain the set was last tested with. Read by fmp-dev-orchestrator's stack check. Update on every skill release (cadenceux-skill-creator release checklist).",
   "skills": {
     "claris-filemaker-pro": {
-      "version": "2.2.0",
+      "version": "2.2.1",
       "repo": "https://github.com/CadenceUX/claris-filemaker-pro-skill"
     },
     "fmp-dev-design-patterns": {
-      "version": "2.1.0",
+      "version": "2.1.1",
       "repo": "https://github.com/CadenceUX/fmp-dev-design-patterns"
     },
     "fmp-dev-orchestrator": {
-      "version": "2.1.2",
+      "version": "2.1.3",
       "repo": "https://github.com/CadenceUX/fmp-dev-orchestrator-skill"
     },
     "cadenceux-fms-docker-setup": {
-      "version": "1.6.1",
+      "version": "1.6.2",
       "repo": "https://github.com/CadenceUX/cadenceux-fms-docker-setup-skill"
     },
     "cadenceux-ottofms-docker-setup": {
-      "version": "1.1.1",
+      "version": "1.1.2",
       "repo": "https://github.com/CadenceUX/cadenceux-ottofms-docker-setup-skill"
     },
     "monkeybread-mbs-plugin": {
@@ -36,7 +36,7 @@
       "repo": "https://github.com/CadenceUX/beezwax-bbox-plugin-skill"
     },
     "cadenceux-skill-creator": {
-      "version": "2.1.2",
+      "version": "2.1.3",
       "repo": "https://github.com/CadenceUX/cadenceux-skill-creator-skill"
     }
   },
