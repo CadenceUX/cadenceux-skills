@@ -158,6 +158,23 @@
       ],
       "displayName": "CadenceUX Skill Creator",
       "homepage": "https://github.com/CadenceUX/cadenceux-skill-creator-skill"
+    },
+    {
+      "name": "cadenceux-github",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CadenceUX/cadenceux-github-skill.git"
+      },
+      "description": "Shares a FileMaker developer's Claude skill on GitHub: creating the account, scrubbing client material, the plugin and marketplace files, release .zip and .skill archives built from a tag, updates, and reviewing published skills for unreleased changes.",
+      "category": "development",
+      "tags": [
+        "github",
+        "claude-skills",
+        "publishing",
+        "releases"
+      ],
+      "displayName": "CadenceUX GitHub",
+      "homepage": "https://github.com/CadenceUX/cadenceux-github-skill"
     }
   ]
 }
