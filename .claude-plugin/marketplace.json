@@ -93,6 +93,23 @@
       "homepage": "https://github.com/CadenceUX/cadenceux-ottofms-docker-setup-skill"
     },
     {
+      "name": "cadenceux-fms-security",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CadenceUX/cadenceux-fms-security-skill.git"
+      },
+      "description": "Runs an interactive security check of a Claris FileMaker Server you own or manage: internet exposure, server settings, known CVEs live from NVD, account security in the hosted files, and a log review for password spraying and bulk record downloads, ending in a plain-English findings report. Offered as is; not a replacement for a professional security assessment.",
+      "category": "operations",
+      "tags": [
+        "filemaker",
+        "claris",
+        "filemaker-server",
+        "security"
+      ],
+      "displayName": "FileMaker Server Security Check",
+      "homepage": "https://github.com/CadenceUX/cadenceux-fms-security-skill"
+    },
+    {
       "name": "monkeybread-mbs-plugin",
       "source": {
         "source": "url",
