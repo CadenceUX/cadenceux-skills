@@ -98,7 +98,7 @@
         "source": "url",
         "url": "https://github.com/CadenceUX/cadenceux-fms-security-skill.git"
       },
-      "description": "Runs an interactive security check of a Claris FileMaker Server you own or manage: internet exposure, server settings, known CVEs live from NVD, account security in the hosted files, and a log review for password spraying and bulk record downloads, ending in a plain-English findings report. Offered as is; not a replacement for a professional security assessment.",
+      "description": "Runs an interactive security check of a Claris FileMaker Server you own or manage: internet exposure, server settings, known CVEs live from NVD, account security in the hosted files, a log review for password spraying and bulk record downloads, and backups checked against the data owner's limits on data loss and downtime, ending in a plain-English findings report. Offered as is; not a replacement for a professional security assessment.",
       "category": "operations",
       "tags": [
         "filemaker",
