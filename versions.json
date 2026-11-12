@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-10-31",
+  "updated": "2026-11-13",
   "about": "Latest release of each CadenceUX FileMaker skill, and the toolchain the set was last tested with. Read by fmp-dev-orchestrator's stack check. Update on every skill release (cadenceux-skill-creator release checklist).",
   "skills": {
     "claris-filemaker-pro": {
@@ -24,7 +24,7 @@
       "repo": "https://github.com/CadenceUX/cadenceux-ottofms-docker-setup-skill"
     },
     "cadenceux-fms-security": {
-      "version": "1.2.2",
+      "version": "1.3.0",
       "repo": "https://github.com/CadenceUX/cadenceux-fms-security-skill"
     },
     "monkeybread-mbs-plugin": {
