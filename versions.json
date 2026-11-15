@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-13",
+  "updated": "2026-11-15",
   "about": "Latest release of each CadenceUX FileMaker skill, and the toolchain the set was last tested with. Read by fmp-dev-orchestrator's stack check. Update on every skill release (cadenceux-skill-creator release checklist).",
   "skills": {
     "claris-filemaker-pro": {
@@ -40,7 +40,7 @@
       "repo": "https://github.com/CadenceUX/beezwax-bbox-plugin-skill"
     },
     "cadenceux-skill-creator": {
-      "version": "2.2.0",
+      "version": "2.3.0",
       "repo": "https://github.com/CadenceUX/cadenceux-skill-creator-skill"
     },
     "cadenceux-github": {

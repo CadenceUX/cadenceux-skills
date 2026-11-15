@@ -13,35 +13,66 @@ Built and maintained by [Darrin Southern](https://www.linkedin.com/in/darrin-sou
 
 ## Install
 
-**Claude Code** (terminal, desktop app Code tab, VS Code):
+**Claude Code** (terminal, desktop app Code tab, VS Code): add the marketplace once, then the
+core skills.
 
 ```bash
 claude plugin marketplace add https://github.com/CadenceUX/cadenceux-skills.git
+claude plugin install fmp-dev-orchestrator@cadenceux
 claude plugin install claris-filemaker-pro@cadenceux
+claude plugin install fmp-dev-design-patterns@cadenceux
 ```
 
-Or inside a session: `/plugin marketplace add https://github.com/CadenceUX/cadenceux-skills.git`,
+Add any of the other skills below the same way (`claude plugin install <skill>@cadenceux`), or
+inside a session: `/plugin marketplace add https://github.com/CadenceUX/cadenceux-skills.git`,
 then pick skills from `/plugin`.
 
 **claude.ai and Cowork** (web, desktop and mobile chat): **Customize → Plugins → Add →
 marketplace from GitHub**, enter `CadenceUX/cadenceux-skills`, then install the skills you want.
 Plugins you install on claude.ai also appear in Claude Code.
 
-Updates: run `claude plugin update`, or turn on auto-update for the `cadenceux` marketplace.
+**Updates.** Turn on auto-update for the `cadenceux` marketplace (in `/plugin`, under
+Marketplaces) and new releases arrive on their own. Without it, the marketplace only moves when
+you refresh it, then update each skill by name:
+
+```bash
+claude plugin marketplace update cadenceux
+claude plugin update <skill>@cadenceux
+```
+
+Restart Claude Code afterwards to load the new versions. On claude.ai and Cowork, update from
+Customize → Plugins. `fmp-dev-orchestrator` lists what's behind, with the exact commands.
 
 ## Skills
 
+**Core**, for every FileMaker developer:
+
 | Skill | What it does |
 |---|---|
+| `fmp-dev-orchestrator` | Routes each FileMaker topic to the skill or tool that owns it, ADT included, and checks your stack is current. |
 | `claris-filemaker-pro` | FileMaker Pro reference: every function and script step with exact syntax, versions and platform support, plus Data API, OData, SQL, WebDirect and Go. Defers to ADT's engine when installed. |
 | `fmp-dev-design-patterns` | Scripting conventions and patterns: error handling, JSON parameters, transactions, AI steps, naming and anti-patterns. Writes scripts into the file through ADT. |
-| `fmp-dev-orchestrator` | Routes each FileMaker topic to the skill or tool that owns it, ADT included. |
-| `cadenceux-fms-docker-setup` | FileMaker Server on Docker (macOS, Apple silicon): install, certificates, upgrades and rollback. |
-| `cadenceux-ottofms-docker-setup` | OttoFMS on a Docker-hosted FileMaker Server: install and activation. |
+
+**Plug-in**, for anyone using that plug-in in FileMaker Pro:
+
+| Skill | What it does |
+|---|---|
 | `monkeybread-mbs-plugin` | MBS FileMaker Plugin reference. |
 | `goya-be-plugin` | BaseElements plug-in reference. |
 | `beezwax-bbox-plugin` | bBox plug-in reference. |
+
+**Tools**:
+
+| Skill | What it does |
+|---|---|
 | `cadenceux-skill-creator` | Builds, updates and reviews Claude skills to Anthropic's best practices: evals first, a validator script, Haiku/Sonnet/Opus testing and release packaging. |
+
+**Project skills**, for particular server projects rather than everyday development:
+
+| Skill | What it does |
+|---|---|
+| `cadenceux-fms-docker-setup` | FileMaker Server on Docker (macOS, Apple silicon): install, certificates, upgrades and rollback. |
+| `cadenceux-ottofms-docker-setup` | OttoFMS on a Docker-hosted FileMaker Server: install and activation. Needs `cadenceux-fms-docker-setup` first. |
 
 Each skill lives in its own repository (linked from `/plugin`), with its own changelog and issues.
 
