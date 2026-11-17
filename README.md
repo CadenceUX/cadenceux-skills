@@ -52,7 +52,7 @@ Claris ADT, the FileMaker Pro version ADT needs, and your ADT project's packages
 from your own install. It's read-only.
 
 **Retired in October 2026:** `fmp-dev-full-script` (clipboard XML script generation, replaced
-by ADT) and `agentic-gate`. Their repositories are archived.
+by ADT) and `agentic-gate`. Their repositories were deleted in November 2026.
 
 ## Troubleshooting
 
