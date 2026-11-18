@@ -8,11 +8,11 @@
       "repo": "https://github.com/CadenceUX/cadenceux-dx-skill"
     },
     "claris-filemaker-pro": {
-      "version": "3.0.0",
+      "version": "3.0.2",
       "repo": "https://github.com/CadenceUX/claris-filemaker-pro-skill"
     },
     "fmp-dev-design-patterns": {
-      "version": "3.0.0",
+      "version": "3.0.1",
       "repo": "https://github.com/CadenceUX/fmp-dev-design-patterns"
     },
     "cadenceux-filemaker-standards": {
@@ -21,19 +21,19 @@
       "kind": "ADK standards pack (pack name: cadenceux)"
     },
     "cadenceux-fms-docker-setup": {
-      "version": "1.6.2",
+      "version": "1.6.3",
       "repo": "https://github.com/CadenceUX/cadenceux-fms-docker-setup-skill"
     },
     "cadenceux-ottofms-docker-setup": {
-      "version": "1.1.2",
+      "version": "1.1.3",
       "repo": "https://github.com/CadenceUX/cadenceux-ottofms-docker-setup-skill"
     },
     "cadenceux-fms-security": {
-      "version": "1.3.0",
+      "version": "1.3.1",
       "repo": "https://github.com/CadenceUX/cadenceux-fms-security-skill"
     },
     "monkeybread-mbs-plugin": {
-      "version": "2.1.0",
+      "version": "2.1.1",
       "repo": "https://github.com/CadenceUX/monkeybread-mbs-plugin-skill"
     },
     "goya-be-plugin": {
@@ -45,11 +45,11 @@
       "repo": "https://github.com/CadenceUX/beezwax-bbox-plugin-skill"
     },
     "cadenceux-skill-creator": {
-      "version": "2.4.2",
+      "version": "2.4.3",
       "repo": "https://github.com/CadenceUX/cadenceux-skill-creator-skill"
     },
     "cadenceux-github": {
-      "version": "1.1.0",
+      "version": "1.1.1",
       "repo": "https://github.com/CadenceUX/cadenceux-github-skill"
     }
   },
