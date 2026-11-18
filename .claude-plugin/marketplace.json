@@ -1,19 +1,37 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "cadenceux",
-  "description": "Claude skills for Claris FileMaker developers from CadenceUX: FileMaker Pro reference, scripting patterns, plug-in references and FileMaker Server operations, built to work with the Claris Agentic Development Toolkit (ADT).",
+  "description": "Claude skills for Claris FileMaker developers from CadenceUX: the DX routing and stack check, FileMaker Pro reference, scripting patterns and the cadenceux standards pack, plug-in references and FileMaker Server operations, built to work with Claris's FileMaker Agentic Development Kit (ADK) or without it.",
   "owner": {
     "name": "Darrin Southern, CadenceUX",
     "url": "https://cadenceux.com.au"
   },
   "plugins": [
     {
+      "name": "cadenceux-dx",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CadenceUX/cadenceux-dx-skill.git"
+      },
+      "description": "Start here for agentic FileMaker work, with or without Claris's Agentic Development Kit (ADK): routes each task to the skill or ADK tool that owns it, checks the stack is current, and guides the decisions around the code: native or web viewer, data access, FileMaker 26.0.3 and earlier, reviews, linter tests, security and deployment.",
+      "category": "development",
+      "tags": [
+        "filemaker",
+        "claris",
+        "adk",
+        "routing",
+        "developer-experience"
+      ],
+      "displayName": "CadenceUX DX",
+      "homepage": "https://github.com/CadenceUX/cadenceux-dx-skill"
+    },
+    {
       "name": "claris-filemaker-pro",
       "source": {
         "source": "url",
         "url": "https://github.com/CadenceUX/claris-filemaker-pro-skill.git"
       },
-      "description": "FileMaker Pro reference: every calculation function and script step with exact syntax, return types, versions and seven-product platform support, plus the Data API, OData, SQL, WebDirect and FileMaker Go. Works with the Claris Agentic Development Toolkit (ADT) when it's installed.",
+      "description": "FileMaker Pro reference, current to FileMaker 26.1: every calculation function and script step with exact syntax, return types, versions and seven-product platform support, plus the Data API, OData, SQL, WebDirect and FileMaker Go. Defers to Claris's Agentic Development Kit (ADK) engine when it's installed.",
       "category": "reference",
       "tags": [
         "filemaker",
@@ -65,15 +83,13 @@
         "source": "url",
         "url": "https://github.com/CadenceUX/fmp-dev-orchestrator-skill.git"
       },
-      "description": "Routes FileMaker work to the CadenceUX skill or Claris ADT tool that owns it, and checks that the stack is current: skills, ADT, FileMaker Pro and the ADT project's packages.",
+      "description": "Retired: replaced by cadenceux-dx. The last release only tells you to install it.",
       "category": "development",
       "tags": [
         "filemaker",
-        "claris",
-        "routing",
-        "adt"
+        "retired"
       ],
-      "displayName": "FileMaker Skill Orchestrator",
+      "displayName": "FileMaker Skill Orchestrator (retired)",
       "homepage": "https://github.com/CadenceUX/fmp-dev-orchestrator-skill"
     },
     {
