@@ -40,11 +40,11 @@
       "repo": "https://github.com/CadenceUX/beezwax-bbox-plugin-skill"
     },
     "cadenceux-skill-creator": {
-      "version": "2.4.1",
+      "version": "2.4.2",
       "repo": "https://github.com/CadenceUX/cadenceux-skill-creator-skill"
     },
     "cadenceux-github": {
-      "version": "1.0.0",
+      "version": "1.1.0",
       "repo": "https://github.com/CadenceUX/cadenceux-github-skill"
     }
   },
