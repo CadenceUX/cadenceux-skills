@@ -4,7 +4,7 @@
   "about": "Latest release of each CadenceUX FileMaker skill, and the toolchain the set was last tested with. Read by fmp-dev-orchestrator's stack check. Update on every skill release (cadenceux-skill-creator release checklist).",
   "skills": {
     "claris-filemaker-pro": {
-      "version": "2.2.1",
+      "version": "3.0.0",
       "repo": "https://github.com/CadenceUX/claris-filemaker-pro-skill"
     },
     "fmp-dev-design-patterns": {
