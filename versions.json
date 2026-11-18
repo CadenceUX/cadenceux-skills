@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updated": "2026-11-18",
+  "updated": "2026-11-19",
   "about": "Latest release of each CadenceUX FileMaker skill, and the toolchain the set was last tested with. Read by fmp-dev-orchestrator's stack check. Update on every skill release (cadenceux-skill-creator release checklist).",
   "skills": {
     "claris-filemaker-pro": {
@@ -8,8 +8,13 @@
       "repo": "https://github.com/CadenceUX/claris-filemaker-pro-skill"
     },
     "fmp-dev-design-patterns": {
-      "version": "2.1.1",
+      "version": "3.0.0",
       "repo": "https://github.com/CadenceUX/fmp-dev-design-patterns"
+    },
+    "cadenceux-filemaker-standards": {
+      "version": "1.0.0",
+      "repo": "https://github.com/CadenceUX/cadenceux-filemaker-standards",
+      "kind": "ADK standards pack (pack name: cadenceux)"
     },
     "fmp-dev-orchestrator": {
       "version": "2.1.3",
@@ -56,7 +61,7 @@
     "filemaker-layout-xml": "Clipboard XML skill; not needed with Claris ADT."
   },
   "tested_with": {
-    "date": "2026-10-11",
+    "date": "2026-11-19",
     "adt": {
       "channel": "preview",
       "note": "Claris ADT, and the FileMaker Pro build it needs, are in Claris's preview programs, so their version numbers aren't published here. The stack check reads them from your own install: ADT's version, the FileMaker Pro version ADT states it needs, and the packages ADT's project template ships."
@@ -72,6 +77,11 @@
     },
     "bbox_plugin": {
       "version": "1.06"
+    },
+    "adk": {
+      "version": "0.16.0",
+      "engine": "26.1.1.54",
+      "filemaker_pro": "26.1.1"
     }
   },
   "sources": {
@@ -85,5 +95,11 @@
   },
   "outside_set": {
     "clockwork-inspector": "Not part of the CadenceUX FileMaker set. Not superseded by ADT: keep it if you use it."
+  },
+  "requirements": {
+    "adk": {
+      "filemaker_pro": "26.1",
+      "filemaker_server": "26.1.1"
+    }
   }
 }

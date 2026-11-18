@@ -30,16 +30,34 @@
         "source": "url",
         "url": "https://github.com/CadenceUX/fmp-dev-design-patterns.git"
       },
-      "description": "Scripting conventions and design patterns for Claris FileMaker: boilerplate, error handling, JSON parameters, transactions, AI steps, naming and anti-patterns, with scripts written into the file through the Claris Agentic Development Toolkit (ADT).",
+      "description": "Scripting conventions and design patterns for Claris FileMaker: script structure, error handling, JSON parameters and results, transactions, AI steps, naming and anti-patterns. Applies the cadenceux standards pack through Claris's Agentic Development Kit (ADK), or without it.",
       "category": "development",
       "tags": [
         "filemaker",
         "claris",
         "scripting",
-        "design-patterns"
+        "design-patterns",
+        "adk"
       ],
       "displayName": "FileMaker Design Patterns",
       "homepage": "https://github.com/CadenceUX/fmp-dev-design-patterns"
+    },
+    {
+      "name": "cadenceux-filemaker-standards",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CadenceUX/cadenceux-filemaker-standards.git"
+      },
+      "description": "CadenceUX FileMaker naming and design-pattern conventions as a Claris ADK standards pack: Domain: Action script names, dot-notation fields and table occurrences, the CadenceUX script header, error handling and JSON script results. Apply with adk standards use cadenceux.",
+      "category": "development",
+      "tags": [
+        "filemaker",
+        "claris",
+        "adk",
+        "standards"
+      ],
+      "displayName": "CadenceUX FileMaker Standards",
+      "homepage": "https://github.com/CadenceUX/cadenceux-filemaker-standards"
     },
     {
       "name": "fmp-dev-orchestrator",
