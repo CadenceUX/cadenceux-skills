@@ -29,7 +29,7 @@
       "repo": "https://github.com/CadenceUX/cadenceux-ottofms-docker-setup-skill"
     },
     "cadenceux-fms-security": {
-      "version": "1.4.1",
+      "version": "1.4.2",
       "repo": "https://github.com/CadenceUX/cadenceux-fms-security-skill"
     },
     "monkeybread-mbs-plugin": {
