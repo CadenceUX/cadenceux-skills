@@ -43,7 +43,7 @@ Updates: run `claude plugin update`, or turn on auto-update for the `cadenceux` 
 | `monkeybread-mbs-plugin` | MBS FileMaker Plugin reference. |
 | `goya-be-plugin` | BaseElements plug-in reference. |
 | `beezwax-bbox-plugin` | bBox plug-in reference. |
-| `cadenceux-fms-security` | Security check of a FileMaker Server you manage: exposure, CVEs, accounts, logs and backups. |
+| `cadenceux-fms-security` | Security check of a FileMaker Server you manage: exposure, CVEs, accounts, logs (several servers together) and backups. |
 | `cadenceux-github` | Sharing skills on GitHub safely, checking accounts and repos for known attacks, and scanning skills before you install them. |
 | `cadenceux-skill-creator` | Builds, updates and reviews Claude skills to Anthropic's best practices: evals first, a validator script, Haiku/Sonnet/Opus testing and release packaging. |
 
