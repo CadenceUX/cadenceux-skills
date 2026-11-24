@@ -1,18 +1,18 @@
 {
   "schema": 1,
-  "updated": "2026-11-22",
+  "updated": "2026-11-24",
   "about": "Latest release of each CadenceUX FileMaker skill, and the toolchain the set was last tested with. Read by cadenceux-dx's stack check. Update on every skill release (cadenceux-skill-creator release checklist).",
   "skills": {
     "cadenceux-dx": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "repo": "https://github.com/CadenceUX/cadenceux-dx-skill"
     },
     "claris-filemaker-pro": {
-      "version": "3.0.2",
+      "version": "3.0.3",
       "repo": "https://github.com/CadenceUX/claris-filemaker-pro-skill"
     },
     "fmp-dev-design-patterns": {
-      "version": "3.0.1",
+      "version": "3.0.2",
       "repo": "https://github.com/CadenceUX/fmp-dev-design-patterns"
     },
     "cadenceux-filemaker-standards": {
@@ -62,7 +62,7 @@
     "filemaker-layout-xml": "Clipboard XML skill; not needed with Claris ADK."
   },
   "tested_with": {
-    "date": "2026-11-19",
+    "date": "2026-11-24",
     "adt": {
       "channel": "preview",
       "note": "Superseded by tested_with.adk: the ADT preview became Claris's public ADK. Kept for fmp-dev-orchestrator 2.1.3 installs."
@@ -80,8 +80,8 @@
       "version": "1.06"
     },
     "adk": {
-      "version": "0.16.0",
-      "engine": "26.1.1.54",
+      "version": "0.17.0",
+      "engine": "26.1.1",
       "filemaker_pro": "26.1.1"
     }
   },
