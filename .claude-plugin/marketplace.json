@@ -83,13 +83,15 @@
         "source": "url",
         "url": "https://github.com/CadenceUX/fmp-dev-orchestrator-skill.git"
       },
-      "description": "Retired: replaced by cadenceux-dx. The last release only tells you to install it.",
+      "description": "The same skill as cadenceux-dx, under its earlier name: routes FileMaker work, checks the stack and guides the decisions. Install one of the two, not both.",
       "category": "development",
       "tags": [
         "filemaker",
-        "retired"
+        "claris",
+        "adk",
+        "routing"
       ],
-      "displayName": "FileMaker Skill Orchestrator (retired)",
+      "displayName": "FileMaker Skill Orchestrator (same as CadenceUX DX)",
       "homepage": "https://github.com/CadenceUX/fmp-dev-orchestrator-skill"
     },
     {

@@ -55,8 +55,10 @@ toolchain the set was last tested with (FileMaker Server and plugin versions).
 ADK, the FileMaker Pro version ADK needs, and your ADK project's standards pack and packages,
 all read from your own install. It's read-only.
 
-**Retired:** `fmp-dev-orchestrator` (November 2026, replaced by `cadenceux-dx`; its last
-release only points to it), `fmp-dev-full-script` (clipboard XML script generation, replaced by
+**Same skill, two names:** `fmp-dev-orchestrator` is `cadenceux-dx` under its earlier name,
+built from the cadenceux-dx repo so existing installs and links keep working. Install one.
+
+**Retired:** `fmp-dev-full-script` (clipboard XML script generation, replaced by
 ADK) and `agentic-gate` (October 2026; their repositories were deleted in November 2026).
 
 ## Troubleshooting
@@ -66,8 +68,7 @@ ADK) and `agentic-gate` (October 2026; their repositories were deleted in Novemb
   you added it as `CadenceUX/cadenceux-skills`, re-add it with the `https://` URL above, or set
   `CLAUDE_CODE_PLUGIN_PREFER_HTTPS=1`.
 - A retired skill still showing after an update: uninstall it with
-  `claude plugin uninstall fmp-dev-orchestrator@cadenceux` (or `fmp-dev-full-script@cadenceux`,
-  `agentic-gate@cadenceux`).
+  `claude plugin uninstall fmp-dev-full-script@cadenceux` (or `agentic-gate@cadenceux`).
 
 ## Licence
 

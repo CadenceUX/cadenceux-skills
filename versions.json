@@ -4,8 +4,14 @@
   "about": "Latest release of each CadenceUX FileMaker skill, and the toolchain the set was last tested with. Read by cadenceux-dx's stack check. Update on every skill release (cadenceux-skill-creator release checklist).",
   "skills": {
     "cadenceux-dx": {
-      "version": "1.0.1",
+      "version": "1.0.2",
       "repo": "https://github.com/CadenceUX/cadenceux-dx-skill"
+    },
+    "fmp-dev-orchestrator": {
+      "version": "3.0.2",
+      "repo": "https://github.com/CadenceUX/fmp-dev-orchestrator-skill",
+      "same_as": "cadenceux-dx",
+      "kind": "cadenceux-dx under its earlier name, built from the cadenceux-dx repo; install one"
     },
     "claris-filemaker-pro": {
       "version": "3.0.3",
@@ -54,7 +60,6 @@
     }
   },
   "retired": {
-    "fmp-dev-orchestrator": "Retired 2026-11-19: replaced by cadenceux-dx (claude plugin install cadenceux-dx@cadenceux).",
     "fmp-dev-full-script": "Retired 2026-10-11: clipboard XML script generation, replaced by Claris ADK.",
     "agentic-gate": "Retired 2026-10-11.",
     "filemaker-xml": "Clipboard XML skill; not needed with Claris ADK.",
