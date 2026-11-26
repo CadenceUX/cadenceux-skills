@@ -1,10 +1,14 @@
 {
   "schema": 1,
   "updated": "2026-11-27",
-  "about": "Latest release of each CadenceUX FileMaker skill, and the toolchain the set was last tested with. Read by cadenceux-developer-experience's stack check. Update on every skill release (cadenceux-skill-creator release checklist).",
+  "about": "Latest release of each CadenceUX FileMaker skill, and the toolchain the set was last tested with. Read by fmp-dev-orchestrator's stack check. Update on every skill release (cadenceux-skill-creator release checklist).",
   "skills": {
+    "fmp-dev-orchestrator": {
+      "version": "4.0.0",
+      "repo": "https://github.com/CadenceUX/fmp-dev-orchestrator-skill"
+    },
     "cadenceux-developer-experience": {
-      "version": "2.0.0",
+      "version": "3.0.0",
       "repo": "https://github.com/CadenceUX/cadenceux-developer-experience-skill"
     },
     "claris-filemaker-pro": {
@@ -59,8 +63,7 @@
     "filemaker-xml": "Clipboard XML skill; not needed with Claris ADK.",
     "filemaker-field-xml": "Clipboard XML skill; not needed with Claris ADK.",
     "filemaker-layout-xml": "Clipboard XML skill; not needed with Claris ADK.",
-    "cadenceux-dx": "Renamed 2026-11-27: replaced by cadenceux-developer-experience (same repo, new name). Install that and remove this one.",
-    "fmp-dev-orchestrator": "Retired 2026-11-27: replaced by cadenceux-developer-experience. Install that and remove this one."
+    "cadenceux-dx": "Renamed 2026-11-27: replaced by cadenceux-developer-experience (same repo, new name). Install that, with fmp-dev-orchestrator, and remove this one."
   },
   "tested_with": {
     "date": "2026-11-24",

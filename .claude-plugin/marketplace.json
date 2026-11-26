@@ -1,25 +1,43 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "cadenceux",
-  "description": "Claude skills for Claris FileMaker developers from CadenceUX: the developer experience (sprints, stage gates, routing and the stack check), FileMaker Pro reference, scripting patterns and the cadenceux standards pack, plug-in references and FileMaker Server operations, built to work with Claris's FileMaker Agentic Development Kit (ADK) or without it.",
+  "description": "Claude skills for Claris FileMaker developers from CadenceUX: the skill orchestrator (routing and the stack check), the developer experience (sprints and stage gates), FileMaker Pro reference, scripting patterns and the cadenceux standards pack, plug-in references and FileMaker Server operations, built to work with Claris's FileMaker Agentic Development Kit (ADK) or without it.",
   "owner": {
     "name": "Darrin Southern, CadenceUX",
     "url": "https://cadenceux.com.au"
   },
   "plugins": [
     {
-      "name": "cadenceux-developer-experience",
+      "name": "fmp-dev-orchestrator",
       "source": {
         "source": "url",
-        "url": "https://github.com/CadenceUX/cadenceux-developer-experience-skill.git"
+        "url": "https://github.com/CadenceUX/fmp-dev-orchestrator-skill.git"
       },
-      "description": "Start here for agentic FileMaker work, with or without Claris's Agentic Development Kit (ADK): directs the work as agile sprints (needs analysis, sprint planning, solution design, implementation, QA testing, review and optimise, deploy), with the thinking hats each stage calls and the gates work must pass before it deploys. Routes each task to the skill or ADK tool that owns it, checks the stack is current, and guides the decisions around the code. Replaces cadenceux-dx.",
+      "description": "Start here: selects the skill or ADK tool for each FileMaker task, gives the install line when it's missing, plans requests that span skills, and checks your stack is current (CadenceUX skills, ADK, FileMaker Pro). Works with cadenceux-developer-experience, which runs the work.",
       "category": "development",
       "tags": [
         "filemaker",
         "claris",
         "adk",
         "routing",
+        "orchestrator",
+        "stack-check"
+      ],
+      "displayName": "FileMaker Skill Orchestrator",
+      "homepage": "https://github.com/CadenceUX/fmp-dev-orchestrator-skill"
+    },
+    {
+      "name": "cadenceux-developer-experience",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/CadenceUX/cadenceux-developer-experience-skill.git"
+      },
+      "description": "How the work runs for agentic FileMaker, with or without Claris's Agentic Development Kit (ADK): directs the work as agile sprints (needs analysis, sprint planning, solution design, implementation, QA testing, review and optimise, deploy), with the thinking hats each stage calls and the gates work must pass before it deploys, and guides the decisions around the code. Works with fmp-dev-orchestrator. Replaces cadenceux-dx.",
+      "category": "development",
+      "tags": [
+        "filemaker",
+        "claris",
+        "adk",
         "developer-experience",
         "agile",
         "stage-gates"
