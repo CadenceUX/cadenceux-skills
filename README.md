@@ -18,7 +18,7 @@ Built and maintained by [Darrin Southern](https://www.linkedin.com/in/darrin-sou
 
 ```bash
 claude plugin marketplace add https://github.com/CadenceUX/cadenceux-skills.git
-claude plugin install cadenceux-dx@cadenceux
+claude plugin install cadenceux-developer-experience@cadenceux
 ```
 
 Or inside a session: `/plugin marketplace add https://github.com/CadenceUX/cadenceux-skills.git`,
@@ -34,7 +34,7 @@ Updates: run `claude plugin update`, or turn on auto-update for the `cadenceux` 
 
 | Skill | What it does |
 |---|---|
-| `cadenceux-dx` | Start here. Routes each FileMaker task to the skill or ADK tool that owns it, checks your stack is current, and guides the decisions around the code: native or web viewer, data access, FileMaker 26.0.3 and earlier, reviews, linter tests, security and deployment. |
+| `cadenceux-developer-experience` | Start here. Directs agentic FileMaker work as agile sprints with stage gates before deploy, routes each task to the skill or ADK tool that owns it, checks your stack is current, and guides the decisions around the code: native or web viewer, data access, FileMaker 26.0.3 and earlier, reviews, linter tests, security and deployment. Replaces `cadenceux-dx`. |
 | `claris-filemaker-pro` | FileMaker Pro reference, current to 26.1: every function and script step with exact syntax, versions and platform support, plus Data API, OData, SQL, WebDirect and Go. Defers to ADK's engine when installed. |
 | `fmp-dev-design-patterns` | Scripting conventions and patterns: error handling, JSON parameters, transactions, AI steps, naming and anti-patterns. Applies the `cadenceux` standards pack, through ADK or without it. |
 | `cadenceux-filemaker-standards` | The `cadenceux` standards pack for ADK (a plugin, not a skill): `adk standards use cadenceux`. |
@@ -51,12 +51,13 @@ Each skill lives in its own repository (linked from `/plugin`), with its own cha
 
 **Staying current.** [`versions.json`](versions.json) lists each skill's latest release and the
 toolchain the set was last tested with (FileMaker Server and plugin versions).
-`cadenceux-dx` reads it once per session and reports anything out of date, including Claris
+`cadenceux-developer-experience` reads it once per session and reports anything out of date, including Claris
 ADK, the FileMaker Pro version ADK needs, and your ADK project's standards pack and packages,
 all read from your own install. It's read-only.
 
-**Same skill, two names:** `fmp-dev-orchestrator` is `cadenceux-dx` under its earlier name,
-built from the cadenceux-dx repo so existing installs and links keep working. Install one.
+**Renamed:** `cadenceux-dx` is now `cadenceux-developer-experience` (November 2026; the old
+repository link redirects). `fmp-dev-orchestrator`, its earlier name, is retired. If either is
+installed, uninstall it and install `cadenceux-developer-experience`.
 
 **Retired:** `fmp-dev-full-script` (clipboard XML script generation, replaced by
 ADK) and `agentic-gate` (October 2026; their repositories were deleted in November 2026).
